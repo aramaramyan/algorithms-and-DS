@@ -1,4 +1,6 @@
 "use strict";
+//Write a recursive function to determine whether all digits of the number are odd or not.
+
 // 1 (Naive version)
 function isAllOdd(num) {
   return [...String(num)].every(el => Number(el) % 2);
